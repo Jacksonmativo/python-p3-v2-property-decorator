@@ -8,7 +8,7 @@ class TestDogProperties:
     def test_name_breed_valid(self):
         '''validates name and breed properties are initialized with valid values'''
         try:
-            # No exception should be thrown since name and breed are valid
+            # No exception should be thrown since name and breed are valid.
             dog = Dog("Fido", "Corgi")
         except Exception as exc:
             # The assertion fails if an exception is thrown
